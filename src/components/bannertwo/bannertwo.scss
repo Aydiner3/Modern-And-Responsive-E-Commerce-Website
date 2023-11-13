@@ -1,0 +1,81 @@
+.bannertwo-container {
+  background: linear-gradient(100deg, #2e2e2e 42.36%, #000 98.65%);
+  height: 448px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: White;
+  position: relative;
+
+  span {
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 72px; /* 100% */
+    letter-spacing: -0.72px;
+
+    s {
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 72px;
+      letter-spacing: -0.72px;
+      text-decoration: none;
+    }
+  }
+  p {
+    color: #787878;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    
+  }
+  a {
+    display: flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid var(--main-white, #fff);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom:-54px;
+  }
+  img {
+    position: absolute;
+  }
+  .iphone {
+    right: 0;
+    top: 2%;
+    width: 160.362px;
+    height: 365.967px;
+    z-index: 12;
+  }
+  .watch{
+    bottom:0;
+    right:0;
+    z-index: 13;
+  }
+  .tablet2{
+    left:0;
+    bottom:13px;
+  }
+  .tablet{
+    left:24px;
+    top:0;
+  }
+  .gold-mac{
+    left:200px;
+    top:0;
+  }
+}
