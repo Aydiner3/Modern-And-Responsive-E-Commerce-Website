@@ -5,6 +5,7 @@ import "./dropdown.scss";
 
 const Dropdown = ({ name, data }) => {
   const [isActive, setIsActive] = useState();
+
   return (
     <div className="dropdown-container">
       <div className="sidebar-dropdown">
@@ -17,15 +18,17 @@ const Dropdown = ({ name, data }) => {
       </div>
       <div className="dropdown-content">
         {isActive && (
-          <div >
-            <input type="text" placeholder="Search" />
+          <div className="content">
+            <input className="search-input" type="text" placeholder="Search" />
             <div>
-              {data.map((item, index) => (
-                <div className="filter-item" key={index}>
-                  <input type="checkbox" key={item.id} />
-                  <span>{item.content}</span>
-                </div>
-              ))}
+              {data.map((item, index) =>
+                (
+                  <div className="filter-item" key={index}>
+                    <input type="checkbox" key={item.id} />
+                    <span>{item.content}</span>
+                  </div>
+                )
+              )}
             </div>
           </div>
         )}

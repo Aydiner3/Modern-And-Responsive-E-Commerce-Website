@@ -8,8 +8,8 @@ const Filtersidebar = () => {
   return (
     <div className='filtersidebar-container'>
       <Dropdown name={"Sale"} data={filterData}/>
-      <Dropdown name={"Sale"} data={filterData}/>
-      <Dropdown name={"Sale"} data={filterData}/>
+      <Dropdown name={"Built in Memory"} data={filterData}/>
+      <Dropdown name={"Brand"} data={filterData}/>
     </div>
   )
 }
