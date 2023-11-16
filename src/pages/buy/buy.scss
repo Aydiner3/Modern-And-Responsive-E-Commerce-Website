@@ -1,0 +1,12 @@
+.buy-content-container{
+    display:flex;
+    margin-bottom:24px;
+    
+    .buy-sidebar{
+        flex:1;
+    }
+    .buy-content{
+        flex:6;
+        
+    }
+}

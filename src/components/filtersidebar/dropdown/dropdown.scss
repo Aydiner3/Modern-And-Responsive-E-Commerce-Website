@@ -1,0 +1,15 @@
+.dropdown-container {
+    transition: all 1s ease;
+    margin-bottom:24px;
+  .sidebar-dropdown {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .dropdown-content {
+    transition: max-height 0.3s ease-out; 
+  }
+}

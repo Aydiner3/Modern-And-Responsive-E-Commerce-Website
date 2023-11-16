@@ -1,0 +1,21 @@
+.breadcrumb-container {
+  display: flex;
+  gap: 24px;
+  padding: 40px 160px;
+  align-items: center;
+
+  a {
+    color: #A4A4A4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+
+    &:last-child{
+        color:black;
+    }
+  }
+  
+  
+}
